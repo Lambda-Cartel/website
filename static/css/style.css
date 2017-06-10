@@ -3,9 +3,9 @@
  */
 
 body {
-  background: #000;
+  background: #444;
   color: #999;
-  padding-top: .5em;
+  padding: .5em .8em 3em .8em;
 }
 
 a, a:hover, a:visited {
@@ -16,7 +16,6 @@ a, a:hover, a:visited {
 .center-align-text {
   text-align: center;
 }
-
 
 
 /*
@@ -33,4 +32,44 @@ a, a:hover, a:visited {
 
 .navigation {
   padding-top: .5em;
+}
+
+/*
+* Podcast Link
+*/
+
+.podcast {
+  padding-top: 2em;
+  font-size: 1.3em;
+}
+
+.podcast a {
+  color: red;
+}
+
+/*
+*  Mission Statement
+*/
+
+.mission-statement {
+  padding-top: 1.5em;
+}
+
+.mission-statement p {
+  padding-top: 1em;
+  font-size: 1.2em;
+  color: #fff;
+  text-align: justify
+}
+
+/*
+* Members
+*/
+
+.members {
+  padding-top: 1em;
+}
+
+.members .bottom-row {
+  padding-top: 2em;
 }
