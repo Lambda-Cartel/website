@@ -21,6 +21,10 @@ a:hover {
   text-align: center;
 }
 
+.justify-align-text {
+  text-align: justify;
+}
+
 /*
 * Slogan
 */
@@ -69,8 +73,17 @@ a:hover {
   padding-top: 1em;
 }
 
+.members .headline {
+  padding-bottom: 2.0em;
+}
+
 .members .bottom-row {
   padding-top: 2em;
+}
+
+.members .name {
+  font-size: 1.3em;
+  padding-top: .5em;
 }
 
 /* 
@@ -88,9 +101,6 @@ a:hover {
     font-size: 1.1em;
   }
 
-
-
-
   /*
   * Mission Statement
   */
@@ -104,6 +114,19 @@ a:hover {
     padding-left: 3em;
     padding-right: 3em;
   }
+
+  /*
+  * Members
+  */
+  .members {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .members .bottom-row {
+    padding-top: .1em;
+  }
+
 
 
 }
